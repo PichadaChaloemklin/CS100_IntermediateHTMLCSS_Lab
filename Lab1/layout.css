@@ -15,3 +15,29 @@ header, nav, article, div, footer {
     text-align: center;
     padding: 10px;
 }
+
+header, footer {
+    width: 100%;
+}
+
+nav {
+   width: 20%;
+   float: left;
+   height: 200px;
+}
+
+article {
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+
+div {
+    width: 20%;
+    float: left;
+    height: 200px;
+}
+
+footer {
+    clear: both;
+}
